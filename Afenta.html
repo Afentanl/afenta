@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Afenta</title>
+  <link rel="shortcut icon" href="/assets/Logo_Pestaña.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Conexiones en esquinas -->
+  <div class="corner-connector top-left"></div>
+  <div class="corner-connector top-right"></div>
+  <div class="corner-connector bottom-left"></div>
+  <div class="corner-connector bottom-right"></div>
+
+  <!-- Navegación -->
+  <nav>
+    <div class="nav-container">
+      <a href="#home" class="logo">
+         <img src="/assets/Logo_Pestaña.png" alt="Logo Afenta" class="logo-img">
+        <div class="logo-text">Afenta</div>
+      </a>
+      <div class="nav-links">
+        <a href="#home" class="nav-link active" data-page="home">Inicio</a>
+        <a href="#about" class="nav-link" data-page="about">Nosotros</a>
+        <a href="#contact" class="nav-link" data-page="contact">Contacto</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <div id="app">
+    <!-- Home Page -->
+    <div id="home" class="page active">
+      <div class="hero">
+        <h1 class="slogan">Where vision becomes impact</h1>
+        <div class="coming-soon">COMING SOON</div>
+      </div>
+    </div>
+    
+    <!-- About Page -->
+    <div id="about" class="page">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>Sobre Afenta</h2>
+          <p>Afenta es una empresa innovadora dedicada a transformar ideas en soluciones digitales impactantes. Nuestro equipo de expertos combina creatividad y tecnología para ofrecer productos que marcan la diferencia.</p>
+          
+          <div class="team-gallery">
+            <div class="gallery-item">
+              <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Equipo Afenta">
+              <p class="image-caption">Nuestro equipo colaborando</p>
+            </div>
+            <div class="gallery-item">
+              <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Oficina">
+              <p class="image-caption">Nuestro espacio creativo</p>
+            </div>
+          </div>
+
+          <div class="mission-vision">
+            <div class="mv-card">
+              <h3>Misión</h3>
+              <p>Cerrar la brecha entre la visión y la implementación, proporcionando herramientas digitales accesibles que empoderen a emprendedores y pequeñas empresas para competir en el mercado digital.</p>
+            </div>
+            
+            <div class="mv-card">
+              <h3>Visión</h3>
+              <p>Ser el socio estratégico preferido para la transformación digital de pequeñas y medianas empresas en Latinoamérica, reconocidos por nuestra capacidad de simplificar lo complejo y hacer la tecnología accesible.</p>
+            </div>
+          </div>
+          
+          <div class="projects-showcase">
+            <h3>Proyectos Destacados</h3>
+            <div class="project-grid">
+              <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Branding">
+              <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Desarrollo">
+              <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Marketing">
+            </div>
+          </div>
+
+          <h3 class="services-title">Nuestros Servicios</h3>
+          <p class="services-intro">En Afenta, ayudamos a dar vida a ideas con soluciones digitales efectivas y accesibles:</p>
+          
+          <div class="services-grid">
+            <div class="service-card">
+              <div class="service-icon">🧠</div>
+              <h4>Branding Básico</h4>
+              <p>Creamos una identidad visual coherente para tu marca:</p>
+              <ul>
+                <li>Diseño de logo</li>
+                <li>Paleta de colores</li>
+                <li>Tipografía</li>
+                <li>Guía visual básica</li>
+              </ul>
+            </div>
+            
+            <div class="service-card">
+              <div class="service-icon">🌐</div>
+              <img class="service-image" src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Diseño Web">
+              <h4>Diseño Web</h4>
+              <p>Diseños modernos, funcionales y adaptados a tu identidad:</p>
+              <ul>
+                <li>Webflow</li>
+                <li>HTML/CSS</li>
+                <li>WordPress</li>
+                <li>Totalmente responsive</li>
+              </ul>
+            </div>
+            
+            <div class="service-card">
+              <div class="service-icon">💻</div>
+              <img class="service-image" src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Desarrollo">
+              <h4>Desarrollo Web</h4>
+              <p>Construcción de sitios rápidos y optimizados:</p>
+              <ul>
+                <li>Landing pages</li>
+                <li>Portafolios profesionales</li>
+                <li>Pequeñas tiendas online</li>
+              </ul>
+            </div>
+            
+            <div class="service-card">
+              <div class="service-icon">⚙️</div>
+              <img class="service-image" src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Automatización">
+              <h4>Automatizaciones Simples</h4>
+              <p>Ahorra tiempo y recursos con flujos automatizados:</p>
+              <ul>
+                <li>Bots y scripts con Python</li>
+                <li>Automatizaciones con Zapier o Make</li>
+                <li>Integración entre herramientas</li>
+              </ul>
+            </div>
+            
+            <div class="service-card">
+              <div class="service-icon">📈</div>
+              <img class="service-image" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Marketing">
+              <h4>Consultoría en Marketing Digital</h4>
+              <p>Asesoría práctica para comenzar con el pie derecho:</p>
+              <ul>
+                <li>Configuración de redes sociales</li>
+                <li>Estrategia de contenidos inicial</li>
+                <li>Definición del tono visual y comunicacional</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1579389083078-4e7018379f7e?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Equipo trabajando">
+          <div class="stats-card">
+            <p>Hacemos realidad tus sueños...</p>
+            <p>E impulsamos tu marca!🚀</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Contact Page -->
+    <div id="contact" class="page">
+      <div class="contact-form">
+        <h2>Contáctanos</h2>
+        <form id="contactForm" action="https://formspree.io/f/xqalplzb" method="POST">
+          <input type="hidden" name="_subject" value="Nuevo mensaje desde Afenta">
+          <input type="hidden" name="_language" value="es">
+          
+          <div class="form-group">
+            <label for="name">Nombre completo</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="phone">Teléfono (opcional)</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Tu mensaje</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          
+          <input type="text" name="_gotcha" style="display:none">
+          <!-- Esta es la key de captcha pero aun no se activa -->
+          <!-- <div class="g-recaptcha" data-sitekey="6LdYNowrAAAAAJZUFpipwqUHDDDxJYgauWtQf0Vj"></div> -->
+          <button type="submit" class="submit-btn">Enviar Mensaje</button>
+          
+          <div id="form-confirmation">
+            ¡Gracias por tu mensaje! Nos pondremos en contacto contigo pronto.
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="social-links">
+      <a href="https://instagram.com/afenta.official" target="_blank" class="social-link">
+        <div class="social-icon instagram-icon"></div>
+        <span>Instagram</span>
+      </a>
+      <a href="#" class="social-link">
+        <div class="social-icon twitter-icon"></div>
+        <span>Twitter</span>
+      </a>
+      <a href="#" class="social-link">
+        <div class="social-icon linkedin-icon"></div>
+        <span>LinkedIn</span>
+      </a>
+    </div>
+    <p>&copy; 2024 Afenta. Todos los derechos reservados.</p>
+  </footer>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Manejar la navegación
+      const navLinks = document.querySelectorAll('.nav-link');
+      const pages = document.querySelectorAll('.page');
+      
+      function showPage(pageId) {
+        pages.forEach(page => page.classList.remove('active'));
+        const activePage = document.getElementById(pageId);
+        if (activePage) activePage.classList.add('active');
+        
+        navLinks.forEach(link => {
+          link.classList.remove('active');
+          if (link.getAttribute('data-page') === pageId) {
+            link.classList.add('active');
+          }
+        });
+        
+        history.pushState(null, null, `#${pageId}`);
+      }
+      
+      navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          showPage(this.getAttribute('data-page'));
+        });
+      });
+      
+      window.addEventListener('popstate', function() {
+        const hash = window.location.hash.substring(1) || 'home';
+        showPage(hash);
+      });
+      
+      const initialPage = window.location.hash.substring(1) || 'home';
+      showPage(initialPage);
+      
+      // Manejar el formulario de contacto
+      const contactForm = document.getElementById('contactForm');
+      if (contactForm) {
+        contactForm.addEventListener('submit', async function(e) {
+          e.preventDefault();
+          
+          const submitBtn = this.querySelector('button[type="submit"]');
+          const originalBtnText = submitBtn.textContent;
+          const confirmation = document.getElementById('form-confirmation');
+          
+          try {
+            submitBtn.textContent = 'Enviando...';
+            submitBtn.disabled = true;
+            
+            const response = await fetch(this.action, {
+              method: 'POST',
+              body: new FormData(this),
+              headers: {
+                'Accept': 'application/json'
+              }
+            });
+            
+            if (response.ok) {
+              confirmation.style.display = 'block';
+              this.reset();
+              
+              setTimeout(() => {
+                confirmation.style.display = 'none';
+              }, 5000);
+            } else {
+              throw new Error('Error en el envío');
+            }
+          } catch (error) {
+            alert('Hubo un error al enviar el mensaje. Por favor inténtalo de nuevo más tarde.');
+            console.error('Error:', error);
+          } finally {
+            submitBtn.textContent = originalBtnText;
+            submitBtn.disabled = false;
+          }
+        });
+      }
+    });
+  </script>
+  <!-- Este es el captcha pero aun no se puede poner -->
+  <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+</body>
+</html>
